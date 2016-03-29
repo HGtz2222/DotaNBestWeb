@@ -1,0 +1,89 @@
+#header{
+	width: 100%;
+	background-color: rgb(13,13,13);
+	height: 74px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#header span{
+	vertical-align: middle;
+	display: inline-block;
+}
+#header img{
+	width: 74px;
+	height: 74px;
+}
+#header a{
+	color: rgb(204, 204, 204);
+	text-decoration: none;
+	padding: 0 10px
+}
+
+#body {
+	margin-top: 74px;
+	width: 100%;
+	background-color: rgb(33, 33, 33);
+	padding-bottom: 5px;
+	color: rgb(204,204,204);
+}
+#screen{
+	padding: 0 0;
+}
+.pic{
+	margin: auto;
+	display: block;
+}
+.name{
+	display: block;
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+
+.main_icon{
+	width: 120px;
+	height: 120px;
+	padding: 12px;
+	display: inline-block;
+}
+.main_name{
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+.main_number{
+	font-size: 18px;
+	font-weight: 100;
+	margin-top: 15px;
+}
+.property{
+	font-size: 16px;
+	text-align: center;
+	border: 1px solid rgb(45, 45, 45);
+}
+.skill_name{
+	font-size: 22px;
+	font-weight: 100;
+}
+.skill_pic{
+	display: inline-block;
+	width: 110px;
+	height: 110px;
+	padding: 10px 10px 10px 10px;
+	margin-right: 20px;
+}
+.skill_desc{
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0 10px 10px 10px;
+	border-bottom:1px;
+	border-color: rgb(204,204,204);
+	border-bottom-style: solid; 
+}
+.skill_desc_bg{
+	color: #999;
+}
+.skill_desc_num{
+	color: rgb(251,184,41);
+}
