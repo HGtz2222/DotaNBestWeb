@@ -24,141 +24,72 @@
 				</div>
 				<div class="col-xs-8">
 					<div class="main_name">
-						熊战士 <span style="color: #fff;font-size: 20px;">[等级<span id="level">1</span>]</span>
+						{{hero.name}} <span style="color: #fff;font-size: 20px;">[等级<span id="level">1</span>]</span>
 					</div>
 					<div class="main_number">
-						力量:23 敏捷:18 智力:16
+						力量:{{hero.liliang}} 敏捷:{{hero.minjie}} 智力:{{hero.zhili}}
 					</div>
 				</div>	
 			</div> <!--end row-->
 			<div class="row">
 				<div class="col-xs-3 property">
 					攻击力<br>
-					45 - 49
+					{{hero.gongji}}
 				</div>
 				<div class="col-xs-3 property">
 					护甲<br>
-					5.6
+					{{hero.hujia}}
 				</div>
 				<div class="col-xs-3 property">
 					移动速度<br>
-					310
+					{{hero.yidongsudu}}
 				</div>
 				<div class="col-xs-3 property">
 					攻击速度<br>
-					28(1.67)
+					{{hero.gongjisudu}}
 				</div>
 			</div> <!--end row-->
 			<div class="row">
 				<div class="col-xs-3 property">
 					生命值<br>
-					587
+					{{hero.hp}}
 				</div>
 				<div class="col-xs-3 property">
 					魔法值<br>
-					208
+					{{hero.mp}}
 				</div>
 				<div class="col-xs-3 property">
 					转身速度<br>
-					0.50
+					{{hero.zhuanshensudu}}
 				</div>
 				<div class="col-xs-3 property">
 					攻击前摇<br>
-					0.30
+					{{hero.gongjiqianyao}}
 				</div>
 			</div> <!--end row-->
+			{% for skill in hero.skill %}
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="skill_name">
-						<img class="skill_pic" src="http://cdn.dota2.com.cn/apps/dota2/images/abilities/ursa_earthshock_lg.png">
-						震撼大地
+						<img class="skill_pic" src="{{skill.logo}}">
+						{{skill.name}}
 					</div>
 				</div>
 			</div><!--end row-->
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="skill_desc">
-						乌尔萨猛击地面带来强烈的冲击，对附近范围内的所有敌方单位造成伤害并减速4秒.
-						<span class="skill_desc_bg">雄性熊怪有力的步伐撼动着大地，展示了他们坚定的战士之心。</span><br>
-						作用范围：<span class="skill_desc_num">385</span><br>
-						移动速度减缓：<span class="skill_desc_num">-25% / -35% / -45% / -55%</span><br>
-						技能：<span class="skill_desc_num">无目标</span><br>
-						伤害类型：<span class="skill_desc_num">魔法</span><br>
-						伤害：<span class="skill_desc_num">90 140 190 240</span><br>
-						无视技能免疫：<span class="skill_desc_num">否</span><br>
-						魔法消耗：<span class="skill_desc_num">75 75 75 75</span><br>
-						冷却时间：<span class="skill_desc_num">5</span><br>
+						{{skill.desc1}}
+						<span class="skill_desc_bg">
+							{{skill.desc2}}
+						</span><br>
+						{% for i in skill.item %}
+						{{i.k}}<span class="skill_desc_num">{{i.v}}</span><br>
+						{% endfor %}
 					</div>
 				</div>
 			</div><!--end row-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="skill_name">
-						<img class="skill_pic" src="http://cdn.dota2.com.cn/apps/dota2/images/abilities/ursa_overpower_lg.png">
-						超强力量
-					</div>
-				</div>
-			</div><!--end row-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="skill_desc">
-						乌尔萨的战斗技巧提升他接下来几次攻击的攻击速度.
-						<span class="skill_desc_bg">乌尔萨有着让人难以和他巨大的体型联想到一起的敏捷。</span><br>
-						攻击次数:<span class="skill_desc_num">3/4/5/6</span><br>
-						攻击速度提升:<span class="skill_desc_num">-500 / 500 / 500 / 500</span><br>
-						持续时间：<span class="skill_desc_num">15</span><br>
-						技能：<span class="skill_desc_num">无目标</span><br>
-						魔法消耗：<span class="skill_desc_num">45 55 65 75</span><br>
-						冷却时间：<span class="skill_desc_num">10 10 10 10</span><br>
-					</div>
-				</div>
-			</div><!--end row-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="skill_name">
-						<img class="skill_pic" src="http://cdn.dota2.com.cn/apps/dota2/images/abilities/ursa_fury_swipes_lg.png">
-						怒意狂击
-					</div>
-				</div>
-			</div><!--end row-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="skill_desc">
-						乌尔萨的利爪深深地撕裂敌人的伤口，对同一敌人连续攻击将造成更多伤害。如果同一个目标在15秒内不受攻击，将失去额外伤害加成。
-						<span class="skill_desc_bg">在大自然中，很少有受伤的动物能从饥饿的捕食者的攻击中幸存。</span><br>
-						重置时间: <span class="skill_desc_num">15</span><br>
-						重置时间(Roshan):<span class="skill_desc_num">6</span><br>
-						每次攻击伤害叠加：<span class="skill_desc_num">15 20 25 30</span><br>
-						技能：<span class="skill_desc_num">被动</span><br>
-						伤害类型：<span class="skill_desc_num">物理</span><br>
-						无视技能免疫：<span class="skill_desc_num">是</span>
-					</div>
-				</div>
-			</div><!--end row-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="skill_name">
-						<img class="skill_pic" src="http://cdn.dota2.com.cn/apps/dota2/images/abilities/ursa_enrage_lg.png">
-						激怒
-					</div>
-				</div>
-			</div><!--end row-->
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="skill_desc">
-						乌尔萨进入狂怒状态，怒意狂击的额外伤害将增加数倍，并且承受的伤害减少80%。施放时将移除所受的负面效果。 可用神杖升级。
-						<span class="skill_desc_bg">乌尔萨放纵他的远古之魂，成为战场上最凶残的生物。</span><br>
-						神杖加成效果: <span class="skill_desc_num">减少冷却时间, 并且可以在被控制的状态下使用激怒. </span><br>
-						伤害降低: <span class="skill_desc_num">80%</span><br>
-						怒意狂击伤害倍数: <span class="skill_desc_num">1.5 1.75 2.0</span><br>
-						伤害降低: <span class="skill_desc_num">80%</span><br>
-						持续时间: <span class="skill_desc_num">4</span><br>
-						冷却时间: <span class="skill_desc_num">50 40 30</span><br>
-						神杖升级的冷却时间: <span class="skill_desc_num">30 24 18</span><br>
-						无视技能免疫：<span class="skill_desc_num">是</span>
-					</div>
-				</div>
-			</div><!--end row-->
+			{% endfor %}
 		</div> <!--end container-->
 	</div><!--end body-->
 </body>

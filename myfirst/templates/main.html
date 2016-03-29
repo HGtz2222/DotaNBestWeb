@@ -23,125 +23,16 @@
 	<div id="body">
 		<div class="container" id="screen">
 			<div class="row">
+				{% for hero in data %}
 				<div class="col-xs-4">
-					<a href="detail.html" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
+					<a href="{{hero.jump}}" class="name">
+						<div><img class="pic" src="{{hero.logo}}"></div>
+						<div>{{hero.name}}</div>
 					</a>
 				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>	
+				{% endfor %}
 			</div>
-			<div class="row">
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>	
-			</div>
-			<div class="row">
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>	
-			</div>
-			<div class="row">
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>	
-			</div>
-			<div class="row">
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>	
-			</div>
-			<div class="row">
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>
-				<div class="col-xs-4">
-					<a href="#" class="name">
-						<div><img class="pic" src="http://cdn.dota2.com.cn/apps/dota2/images/heroes/ursa_hphover.png"></div>
-						<div>熊战士</div>
-					</a>
-				</div>	
-			</div>
+
 		</div>
 	</div><!--end body-->
 </body>
