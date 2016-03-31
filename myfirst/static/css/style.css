@@ -22,7 +22,9 @@
 }
 
 #body {
-	margin-top: 74px;
+	position: relative;
+	top:74px;
+	left: 0;
 	width: 100%;
 	background-color: rgb(33, 33, 33);
 	padding-bottom: 5px;
@@ -34,6 +36,7 @@
 .pic{
 	margin: auto;
 	display: block;
+	width: 100px;
 }
 .name{
 	display: block;
