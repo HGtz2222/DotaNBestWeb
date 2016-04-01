@@ -22,14 +22,14 @@
 	</div><!--end header-->
 	<div id="body">
 		<div class="container" id="screen">
-				{% for hero in data %}
-				<div class="col-xs-4">
-					<a href="{{hero.jump}}" class="name">
-						<div><img class="pic" src="{{hero.logo}}"></div>
-						<div>{{hero.name}}</div>
-					</a>
-				</div>
-				{% endfor %}
+			{% for hero in data %}
+			<div class="col-xs-4">
+				<a href="{{hero.jump}}" class="name">
+					<div><img class="pic" src="{{hero.logo}}"></div>
+					<div>{{hero.name}}</div>
+				</a>
+			</div>
+			{% endfor %}
 
 		</div>
 	</div><!--end body-->
