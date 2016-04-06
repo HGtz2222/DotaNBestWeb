@@ -1,6 +1,13 @@
 run server:
 python manage.py runserver 10.129.148.43:9999
 
+环境部署: 
+
+spider.py依赖了beautifulsoup和lxml
+pip install beautifulsoup4
+pip install lxml
+
+
 开发计划: 
 0. 针对主页, 实现数据从数据文件中加载.
 1. 针对单个英雄, 实现数据从数据文件中加载数据.
