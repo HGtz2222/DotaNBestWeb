@@ -28,16 +28,16 @@
 	color: rgb(204,204,204);
 }
 .body_delta{
-	position: relative;
-	top:74px;
+	position: absolute;
+	top: 0;
 	left: 0;
-}
-#body a{
-	color: rgb(204, 204, 204);
-	text-decoration: none;
 }
 #screen{
 	padding: 0 0;
+}
+#screen a{
+	color: rgb(204, 204, 204);
+	text-decoration: none;
 }
 .pic{
 	margin: auto;
