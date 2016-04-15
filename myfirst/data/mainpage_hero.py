@@ -3,22 +3,22 @@ data = [
 	{
 		'name':'全能骑士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/omniknight_hphover.png',
-		'jump':'detail.html?id=ok'
+		'jump':'detail.html?id=omniknight'
 	},
 	{
 		'name':'幽鬼',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/spectre_hphover.png',
-		'jump':'detail.html?id=spe'
+		'jump':'detail.html?id=spectre'
 	},
 	{
 		'name':'瘟疫法师',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/necrolyte_hphover.png',
-		'jump':'detail.html?id=nec'
+		'jump':'detail.html?id=necrophos'
 	},
 	{
 		'name':'亚巴顿',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/abaddon_hphover.png',
-		'jump':'detail.html?id=loa'
+		'jump':'detail.html?id=abaddon'
 	},
 	{
 		'name':'宙斯',
@@ -33,17 +33,17 @@ data = [
 	{
 		'name':'术士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/warlock_hphover.png',
-		'jump':'detail.html?id=wlk'
+		'jump':'detail.html?id=warlock'
 	},
 	{
 		'name':'冥魂大帝',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/skeleton_king_hphover.png',
-		'jump':'detail.html?id=snk'
+		'jump':'detail.html?id=wraith_king'
 	},
 	{
 		'name':'水晶室女',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/crystal_maiden_hphover.png',
-		'jump':'detail.html?id=cm'
+		'jump':'detail.html?id=crystal_maiden'
 	},
 	{
 		'name':'美杜莎',
@@ -63,97 +63,97 @@ data = [
 	{
 		'name':'复仇之魂',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/vengefulspirit_hphover.png',
-		'jump':'detail.html?id=vs'
+		'jump':'detail.html?id=vengeful_spirit'
 	},
 	{
 		'name':'不朽尸王',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/undying_hphover.png',
-		'jump':'detail.html?id=ud'
+		'jump':'detail.html?id=undying'
 	},
 	{
 		'name':'戴泽',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/dazzle_hphover.png',
-		'jump':'detail.html?id=sp'
+		'jump':'detail.html?id=dazzle'
 	},
 	{
 		'name':'斯拉达',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/slardar_hphover.png',
-		'jump':'detail.html?id=sg'
+		'jump':'detail.html?id=slardar'
 	},
 	{
 		'name':'半人马战行者',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/centaur_hphover.png',
-		'jump':'detail.html?id=cw'
+		'jump':'detail.html?id=centaur_warrunner'
 	},
 	{
 		'name':'暗影萨满',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/shadow_shaman_hphover.png',
-		'jump':'detail.html?id=ss'
+		'jump':'detail.html?id=shadow_shaman'
 	},
 	{
 		'name':'食人魔魔法师',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/ogre_magi_hphover.png',
-		'jump':'detail.html?id=og'
+		'jump':'detail.html?id=ogre_magi'
 	},
 	{
 		'name':'树精卫士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/treant_hphover.png',
-		'jump':'detail.html?id=tp'
+		'jump':'detail.html?id=treant_protector'
 	},
 	{
 		'name':'巫医',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/witch_doctor_hphover.png',
-		'jump':'detail.html?id=wd'
+		'jump':'detail.html?id=witch_doctor'
 	},
 	{
 		'name':'剧毒术士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/venomancer_hphover.png',
-		'jump':'detail.html?id=veno'
+		'jump':'detail.html?id=venomancer'
 	},
 	{
 		'name':'裂魂人',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/spirit_breaker_hphover.png',
-		'jump':'detail.html?id=sb'
+		'jump':'detail.html?id=spirit_breaker'
 	},
 	{
 		'name':'潮汐猎人',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/tidehunter_hphover.png',
-		'jump':'detail.html?id=th'
+		'jump':'detail.html?id=tidehunter'
 	},
 	{
 		'name':'米拉娜',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/mirana_hphover.png',
-		'jump':'detail.html?id=pom'
+		'jump':'detail.html?id=mirana'
 	},
 	{
 		'name':'上古巨神',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/elder_titan_hphover.png',
-		'jump':'detail.html?id=tc'
+		'jump':'detail.html?id=elder_titan'
 	},
 	{
 		'name':'凤凰',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/phoenix_hphover.png',
-		'jump':'detail.html?id=phx'
+		'jump':'detail.html?id=phoenix'
 	},
 	{
 		'name':'杰奇洛',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/jakiro_hphover.png',
-		'jump':'detail.html?id=thd'
+		'jump':'detail.html?id=jakiro'
 	},
 	{
 		'name':'混沌骑士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/chaos_knight_hphover.png',
-		'jump':'detail.html?id=ck'
+		'jump':'detail.html?id=chaos_knight'
 	},
 	{
 		'name':'隐形刺客',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/riki_hphover.png',
-		'jump':'detail.html?id=sa'
+		'jump':'detail.html?id=riki'
 	},
 	{
 		'name':'干扰者',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/disruptor_hphover.png',
-		'jump':'detail.html?id=thrall'
+		'jump':'detail.html?id=disruptor'
 	},
 	{
 		'name':'谜团',
@@ -168,12 +168,12 @@ data = [
 	{
 		'name':'沉默术士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/silencer_hphover.png',
-		'jump':'detail.html?id=sil'
+		'jump':'detail.html?id=silencer'
 	},
 	{
 		'name':'殁境神蚀者',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/obsidian_destroyer_hphover.png',
-		'jump':'detail.html?id=od'
+		'jump':'detail.html?id=Outworld_Devourer'
 	},
 	{
 		'name':'帕吉',
@@ -183,67 +183,67 @@ data = [
 	{
 		'name':'龙骑士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/dragon_knight_hphover.png',
-		'jump':'detail.html?id=dk'
+		'jump':'detail.html?id=dragon_knight'
 	},
 	{
 		'name':'编织者',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/weaver_hphover.png',
-		'jump':'detail.html?id=nw'
+		'jump':'detail.html?id=weaver'
 	},
 	{
 		'name':'主宰',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/juggernaut_hphover.png',
-		'jump':'detail.html?id=jugg'
+		'jump':'detail.html?id=juggernaut'
 	},
 	{
 		'name':'卓尔游侠',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/drow_ranger_hphover.png',
-		'jump':'detail.html?id=dr'
+		'jump':'detail.html?id=drow_ranger'
 	},
 	{
 		'name':'撼地者',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/earthshaker_hphover.png',
-		'jump':'detail.html?id=es'
+		'jump':'detail.html?id=earthshaker'
 	},
 	{
 		'name':'暗夜魔王',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/night_stalker_hphover.png',
-		'jump':'detail.html?id=ns'
+		'jump':'detail.html?id=night_stalker'
 	},
 	{
 		'name':'沙王',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/sand_king_hphover.png',
-		'jump':'detail.html?id=sk'
+		'jump':'detail.html?id=sand_king'
 	},
 	{
 		'name':'兽王',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/beastmaster_hphover.png',
-		'jump':'detail.html?id=bm'
+		'jump':'detail.html?id=beastmaster'
 	},
 	{
 		'name':'狼人',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/lycan_hphover.png',
-		'jump':'detail.html?id=lyc'
+		'jump':'detail.html?id=lycan'
 	},
 	{
 		'name':'冥界亚龙',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/viper_hphover.png',
-		'jump':'detail.html?id=vip'
+		'jump':'detail.html?id=viper'
 	},
 	{
 		'name':'军团指挥官',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/legion_commander_hphover.png',
-		'jump':'detail.html?id=legion'
+		'jump':'detail.html?id=legion_commander'
 	},
 	{
 		'name':'食尸鬼',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/life_stealer_hphover.png',
-		'jump':'detail.html?id=naix'
+		'jump':'detail.html?id=lifestealer'
 	},
 	{
 		'name':'幻影刺客',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/phantom_assassin_hphover.png',
-		'jump':'detail.html?id=pa'
+		'jump':'detail.html?id=phantom_assassin'
 	},
 	{
 		'name':'斯拉克',
@@ -258,32 +258,32 @@ data = [
 	{
 		'name':'远古冰魂',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/ancient_apparition_hphover.png',
-		'jump':'detail.html?id=aa'
+		'jump':'detail.html?id=ancient_apparition'
 	},
 	{
 		'name':'巨魔战将',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/troll_warlord_hphover.png',
-		'jump':'detail.html?id=troll'
+		'jump':'detail.html?id=troll_warlord'
 	},
 	{
 		'name':'酒仙',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/brewmaster_hphover.png',
-		'jump':'detail.html?id=panda'
+		'jump':'detail.html?id=brewmaster'
 	},
 	{
 		'name':'发条技师',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/rattletrap_hphover.png',
-		'jump':'detail.html?id=cg'
+		'jump':'detail.html?id=clockwerk'
 	},
 	{
 		'name':'黑暗贤者',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/dark_seer_hphover.png',
-		'jump':'detail.html?id=ds'
+		'jump':'detail.html?id=dark_seer'
 	},
 	{
 		'name':'赏金猎人',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/bounty_hunter_hphover.png',
-		'jump':'detail.html?id=bh'
+		'jump':'detail.html?id=bounty_hunter'
 	},
 	{
 		'name':'莱恩',
@@ -293,47 +293,47 @@ data = [
 	{
 		'name':'死亡先知',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/death_prophet_hphover.png',
-		'jump':'detail.html?id=dp'
+		'jump':'detail.html?id=death_prophet'
 	},
 	{
 		'name':'炼金术士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/alchemist_hphover.png',
-		'jump':'detail.html?id=ga'
+		'jump':'detail.html?id=alchemist'
 	},
 	{
 		'name':'钢背兽',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/bristleback_hphover.png',
-		'jump':'detail.html?id=bb'
+		'jump':'detail.html?id=bristleback'
 	},
 	{
 		'name':'司夜刺客',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/nyx_assassin_hphover.png',
-		'jump':'detail.html?id=na'
+		'jump':'detail.html?id=nyx_assassin'
 	},
 	{
 		'name':'光之守卫',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/keeper_of_the_light_hphover.png',
-		'jump':'detail.html?id=kotl'
+		'jump':'detail.html?id=keeper_of_the_light'
 	},
 	{
 		'name':'风行者',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/windrunner_hphover.png',
-		'jump':'detail.html?id=wr'
+		'jump':'detail.html?id=windranger'
 	},
 	{
 		'name':'恐怖利刃',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/terrorblade_hphover.png',
-		'jump':'detail.html?id=tb'
+		'jump':'detail.html?id=terrorblade'
 	},
 	{
 		'name':'虚空假面',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/faceless_void_hphover.png',
-		'jump':'detail.html?id=fv'
+		'jump':'detail.html?id=faceless_void'
 	},
 	{
 		'name':'幻影长矛手',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/phantom_lancer_hphover.png',
-		'jump':'detail.html?id=lancer'
+		'jump':'detail.html?id=phantom_lancer'
 	},
 	{
 		'name':'帕格纳',
@@ -348,12 +348,12 @@ data = [
 	{
 		'name':'工程师',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/techies_hphover.png',
-		'jump':'detail.html?id=boom'
+		'jump':'detail.html?id=techies'
 	},
 	{
 		'name':'嗜血狂魔',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/bloodseeker_hphover.png',
-		'jump':'detail.html?id=bs'
+		'jump':'detail.html?id=bloodseeker'
 	},
 	{
 		'name':'末日使者',
@@ -363,17 +363,17 @@ data = [
 	{
 		'name':'矮人直升机',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/gyrocopter_hphover.png',
-		'jump':'detail.html?id=av'
+		'jump':'detail.html?id=gyrocopter'
 	},
 	{
 		'name':'影魔',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/nevermore_hphover.png',
-		'jump':'detail.html?id=sf'
+		'jump':'detail.html?id=shadow_fiend'
 	},
 	{
 		'name':'克林克兹',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/clinkz_hphover.png',
-		'jump':'detail.html?id=bone'
+		'jump':'detail.html?id=clinkz'
 	},
 	{
 		'name':'剃刀',
@@ -388,37 +388,37 @@ data = [
 	{
 		'name':'圣堂刺客',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/templar_assassin_hphover.png',
-		'jump':'detail.html?id=ta'
+		'jump':'detail.html?id=templar_assassin'
 	},
 	{
 		'name':'寒冬飞龙',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/winter_wyvern_hphover.png',
-		'jump':'detail.html?id=ww'
+		'jump':'detail.html?id=winter_wyvern'
 	},
 	{
 		'name':'变体精灵',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/morphling_hphover.png',
-		'jump':'detail.html?id=mor'
+		'jump':'detail.html?id=morphling'
 	},
 	{
 		'name':'魅惑魔女',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/enchantress_hphover.png',
-		'jump':'detail.html?id=eh'
+		'jump':'detail.html?id=enchantress'
 	},
 	{
 		'name':'昆卡',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/kunkka_hphover.png',
-		'jump':'detail.html?id=coco'
+		'jump':'detail.html?id=kunkka'
 	},
 	{
 		'name':'拉席克',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/leshrac_hphover.png',
-		'jump':'detail.html?id=ts'
+		'jump':'detail.html?id=leshrac'
 	},
 	{
 		'name':'大地之灵',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/earth_spirit_hphover.png',
-		'jump':'detail.html?id=spirit'
+		'jump':'detail.html?id=earth_spirit'
 	},
 	{
 		'name':'祸乱之源',
@@ -438,27 +438,27 @@ data = [
 	{
 		'name':'天怒法师',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/skywrath_mage_hphover.png',
-		'jump':'detail.html?id=skywrath'
+		'jump':'detail.html?id=Skywrath_Mage'
 	},
 	{
 		'name':'敌法师',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/antimage_hphover.png',
-		'jump':'detail.html?id=am'
+		'jump':'detail.html?id=anti_mage'
 	},
 	{
 		'name':'德鲁伊',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/lone_druid_hphover.png',
-		'jump':'detail.html?id=ld'
+		'jump':'detail.html?id=lone_druid'
 	},
 	{
 		'name':'先知',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/furion_hphover.png',
-		'jump':'detail.html?id=furion'
+		'jump':'detail.html?id=natures_prophet'
 	},
 	{
 		'name':'伐木机',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/shredder_hphover.png',
-		'jump':'detail.html?id=fmj'
+		'jump':'detail.html?id=timbersaw'
 	},
 	{
 		'name':'小小',
@@ -468,7 +468,7 @@ data = [
 	{
 		'name':'蝙蝠骑士',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/batrider_hphover.png',
-		'jump':'detail.html?id=bat'
+		'jump':'detail.html?id=batrider'
 	},
 	{
 		'name':'莉娜',
@@ -483,7 +483,7 @@ data = [
 	{
 		'name':'马格纳斯',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/magnataur_hphover.png',
-		'jump':'detail.html?id=mag'
+		'jump':'detail.html?id=magnus'
 	},
 	{
 		'name':'维萨吉',
@@ -498,7 +498,7 @@ data = [
 	{
 		'name':'娜迦海妖',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/naga_siren_hphover.png',
-		'jump':'detail.html?id=naga'
+		'jump':'detail.html?id=naga_siren'
 	},
 	{
 		'name':'灰烬之灵',
@@ -508,7 +508,7 @@ data = [
 	{
 		'name':'暗影恶魔',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/shadow_demon_hphover.png',
-		'jump':'detail.html?id=sd'
+		'jump':'detail.html?id=shadow_demon'
 	},
 	{
 		'name':'帕克',
@@ -518,17 +518,17 @@ data = [
 	{
 		'name':'修补匠',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/tinker_hphover.png',
-		'jump':'detail.html?id=tk'
+		'jump':'detail.html?id=tinker'
 	},
 	{
 		'name':'痛苦女王',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/queenofpain_hphover.png',
-		'jump':'detail.html?id=qop'
+		'jump':'detail.html?id=queen_of_pain'
 	},
 	{
 		'name':'风暴之灵',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/storm_spirit_hphover.png',
-		'jump':'detail.html?id=storm'
+		'jump':'detail.html?id=storm_spirit'
 	},
 	{
 		'name':'天穹守望者',
@@ -543,7 +543,7 @@ data = [
 	{
 		'name':'育母蜘蛛',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/broodmother_hphover.png',
-		'jump':'detail.html?id=br'
+		'jump':'detail.html?id=broodmother'
 	},
 	{
 		'name':'米波',
@@ -553,6 +553,6 @@ data = [
 	{
 		'name':'艾欧',
 		'logo':'http://cdn.dota2.com.cn/apps/dota2/images/heroes/wisp_hphover.png',
-		'jump':'detail.html?id=wisp'
+		'jump':'detail.html?id=Io'
 	}
 ]

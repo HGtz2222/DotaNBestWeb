@@ -18,7 +18,7 @@
 	</div><!--end header-->
 	<div id="body">
 		<div class="container" id="screen">
-			<div class="row">
+			<div class="row" style="margin:0">
 				<div class="col-xs-4">
 					<img class="main_icon" src="{{hero.logo}}">
 				</div>
@@ -26,12 +26,30 @@
 					<div class="main_name">
 						{{hero.name}} <span style="color: #fff;font-size: 20px;">[等级<span id="level">1</span>]</span>
 					</div>
-					<div class="main_number">
+					<!--div class="main_number">
 						力量:{{hero.liliang}} 敏捷:{{hero.minjie}} 智力:{{hero.zhili}}
-					</div>
+					</div-->
 				</div>	
 			</div> <!--end row-->
-			<div class="row">
+			<div class="row" style="margin:0">
+				<div class="col-xs-3 property">
+					力量<br>
+					{{hero.liliang}}
+				</div>
+				<div class="col-xs-3 property">
+					敏捷<br>
+					{{hero.minjie}}
+				</div>
+				<div class="col-xs-3 property">
+					智力<br>
+					{{hero.zhili}}
+				</div>	
+				<div class="col-xs-3 property">
+					视野<br>
+					{{hero.shiye}}
+				</div>
+			</div> <!--end row-->
+			<div class="row" style="margin:0">
 				<div class="col-xs-3 property">
 					攻击力<br>
 					{{hero.gongji}}
@@ -45,30 +63,12 @@
 					{{hero.yidongsudu}}
 				</div>
 				<div class="col-xs-3 property">
-					攻击速度<br>
-					{{hero.gongjisudu}}
-				</div>
-			</div> <!--end row-->
-			<div class="row">
-				<div class="col-xs-3 property">
-					生命值<br>
-					{{hero.hp}}
-				</div>
-				<div class="col-xs-3 property">
-					魔法值<br>
-					{{hero.mp}}
-				</div>
-				<div class="col-xs-3 property">
-					转身速度<br>
-					{{hero.zhuanshensudu}}
-				</div>
-				<div class="col-xs-3 property">
 					攻击前摇<br>
 					{{hero.gongjiqianyao}}
 				</div>
 			</div> <!--end row-->
 			{% for skill in hero.skill %}
-			<div class="row">
+			<div class="row" style="margin:0">
 				<div class="col-xs-12">
 					<div class="skill_name">
 						<img class="skill_pic" src="{{skill.logo}}">
@@ -76,7 +76,7 @@
 					</div>
 				</div>
 			</div><!--end row-->
-			<div class="row">
+			<div class="row" style="margin:0">
 				<div class="col-xs-12">
 					<div class="skill_desc">
 						{{skill.desc1}}
