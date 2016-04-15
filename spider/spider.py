@@ -226,7 +226,8 @@ def get_hero_detail(soup):
 		'zhuanshensudu' : getAttr10(soup),
 		'gongjiqianyao' : getAttr11(soup),
 		'shiye' : getAttr12(soup),
-		'skill' : getSkills(soup)
+		'skill' : getSkills(soup),
+		'gongjijuli' : getAttr13(soup)
 	}
 	return hero_detail
 

@@ -63,8 +63,8 @@
 					{{hero.yidongsudu}}
 				</div>
 				<div class="col-xs-3 property">
-					攻击前摇<br>
-					{{hero.gongjiqianyao}}
+					攻击距离<br>
+					{{hero.gongjijuli}}
 				</div>
 			</div> <!--end row-->
 			{% for skill in hero.skill %}
@@ -86,6 +86,8 @@
 						{% for i in skill.item %}
 						{{i.k}}<span class="skill_desc_num">{{i.v}}</span><br>
 						{% endfor %}
+						冷却时间：<span class="skill_desc_num">{{skill.lq}}</span><br>
+						魔法消耗：<span class="skill_desc_num">{{skill.xh}}</span><br>
 					</div>
 				</div>
 			</div><!--end row-->
