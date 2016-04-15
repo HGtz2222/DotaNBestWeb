@@ -22,13 +22,19 @@
 }
 
 #body {
-	position: relative;
-	top:74px;
-	left: 0;
 	width: 100%;
 	background-color: rgb(33, 33, 33);
 	padding-bottom: 5px;
 	color: rgb(204,204,204);
+}
+.body_delta{
+	position: relative;
+	top:74px;
+	left: 0;
+}
+#body a{
+	color: rgb(204, 204, 204);
+	text-decoration: none;
 }
 #screen{
 	padding: 0 0;
@@ -56,7 +62,7 @@
 	margin-top: 30px;
 }
 .main_number{
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 100;
 	margin-top: 15px;
 }
