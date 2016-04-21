@@ -31,35 +31,46 @@
 					</div>
 				</div>	
 			</div> <!--end row-->
-			<div class="row" style="margin:0">
-				<div class="col-xs-4 property">
-					力量<br>
-					{{hero.liliang}}
-				</div>
-				<div class="col-xs-4 property">
-					敏捷<br>
-					{{hero.minjie}}
-				</div>
-				<div class="col-xs-4 property">
-					智力<br>
-					{{hero.zhili}}
-				</div>	
-				
-			</div> <!--end row-->
-			<div class="row" style="margin:0">		
-				<div class="col-xs-4 property">
-					移速<br>
-					{{hero.yidongsudu}}
-				</div>
-				<div class="col-xs-4 property">
-					攻击力<br>
-					{{hero.gongji}}
-				</div>
-				<div class="col-xs-4 property">
-					护甲<br>
-					{{hero.hujia}}
-				</div>
-			</div> <!--end row-->
+
+			<div class="wrap">
+				<div class="tabs">
+					<a href="#" hidefocus="true" class="active">概要</a>
+					<a href="#" hidefocus="true">数据</a>
+					<a href="#" hidefocus="true">视频</a>
+				</div>    
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="content-slide">
+								<div class="row" style="margin:10px 0 0 0">
+									<div class="col-xs-4 property">
+										力量<br>
+										{{hero.liliang}}
+									</div>
+									<div class="col-xs-4 property">
+										敏捷<br>
+										{{hero.minjie}}
+									</div>
+									<div class="col-xs-4 property">
+										智力<br>
+										{{hero.zhili}}
+									</div>	
+
+								</div> <!--end row-->
+								<div class="row" style="margin:0">		
+									<div class="col-xs-4 property">
+										移速<br>
+										{{hero.yidongsudu}}
+									</div>
+									<div class="col-xs-4 property">
+										攻击力<br>
+										{{hero.gongji}}
+									</div>
+									<div class="col-xs-4 property">
+										护甲<br>
+										{{hero.hujia}}
+									</div>
+								</div> <!--end row-->
 			<!--div class="row" style="margin:0">
 				<div class="col-xs-6 property">
 					视野<br>
@@ -95,7 +106,47 @@
 				</div>
 			</div><!--end row-->
 			{% endfor %}
+		</div>
+	</div>
+						<div class="swiper-slide">
+							<div class="content-slide">
+								tab内容二
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="content-slide">
+								tab内容三
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			
 		</div> <!--end container-->
 	</div><!--end body-->
+	<script src="http://www.lanrenzhijia.com/ajaxjs/idangerous.swiper.min.js"></script> 
+	<script>
+	var tabsSwiper = new Swiper('.swiper-container',{
+		speed:500,
+		onSlideChangeStart: function(){
+			$(".tabs .active").removeClass('active');
+			$(".tabs a").eq(tabsSwiper.activeIndex).addClass('active');
+		}
+	});
+
+	$(".tabs a").on('touchstart mousedown',function(e){
+		e.preventDefault()
+		$(".tabs .active").removeClass('active');
+		$(this).addClass('active');
+		tabsSwiper.swipeTo($(this).index());
+	});
+
+	$(".tabs a").click(function(e){
+		e.preventDefault();
+	});
+	</script>
+
 </body>
 </html>
