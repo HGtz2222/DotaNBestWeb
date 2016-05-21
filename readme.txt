@@ -7,6 +7,12 @@ spider.py依赖了beautifulsoup和lxml
 pip install beautifulsoup4
 pip install lxml
 
+常用api说明及例子:
+https://wiki.teamfortress.com/wiki/WebAPI#Dota_2
+https://wiki.teamfortress.com/wiki/WebAPI/GetMatchDetails
+https://wiki.teamfortress.com/wiki/WebAPI/GetMatchHistory
+http://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/v1?key=93F83F0DA3114AEB77CAC4E353785CA2&language=zh&game_mode=1&hero_id=70&date_min=1463500800&date_max=1463587200
+
 
 花絮: 
 调研Pycharm的使用. sublime还是不如IDE方便啊.
